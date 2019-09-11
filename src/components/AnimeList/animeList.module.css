@@ -1,0 +1,25 @@
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardContainer {
+  padding: 30px 5%;
+  margin: 0 auto;
+  max-width: 920px;
+}
+
+.noAnime {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .noAnime {
+    font-size: 2rem !important;
+  }
+}
